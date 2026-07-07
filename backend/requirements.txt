@@ -1,0 +1,28 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+sqlalchemy
+alembic
+aiosqlite
+greenlet
+
+# Security & Crypto
+cryptography
+bcrypt
+argon2-cffi
+passlib[argon2,bcrypt]
+python-jose[cryptography]
+python-multipart
+
+# Utils
+Pillow
+numpy>=1.26.4
+httpx
+aiofiles
+python-dotenv
+slowapi
+
+# Testing
+pytest
+pytest-asyncio
